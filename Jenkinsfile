@@ -19,7 +19,7 @@ triggers {
         }
         stage('Hosting'){
             steps{
-                sh 'cp target/JenHash.war home/theshubhamgour/Documents/softwares/apache-tomcat-9.0.82/webapps'
+                sh 'cp target/JenHash.war /home/theshubhamgour/Documents/softwares/apache-tomcat-9.0.82/webapps'
             }
         }
     }
